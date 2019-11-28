@@ -10,6 +10,8 @@ template:
     git url: >-
       [https://github.com/open-toolchain/empty-toolchain](https://github.com/open-toolchain/empty-toolchain)
     git branch: '[master](https://github.com/open-toolchain/empty-toolchain/tree/master)'
+  required:
+    - nexus
 toolchain:
   name: 'empty-toolchain-{{timestamp}}'
   template:
