@@ -15,5 +15,7 @@ toolchain:
   template:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
-services: {}
+services:
+  nexus:
+    service_id: nexus
 form: {}
