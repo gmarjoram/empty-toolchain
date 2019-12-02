@@ -20,4 +20,14 @@ toolchain:
 services:
   nexus:
     service_id: nexus
+  artifactory:
+    service_id: artifactory
+  jira:
+    service_id: jira
+  rationalteamconcert:
+    service_id: rationalteamconcert
+  sonarqube:
+    service_id: sonarqube
+  jenkins:
+    service_id: jenkins
 form: {}
