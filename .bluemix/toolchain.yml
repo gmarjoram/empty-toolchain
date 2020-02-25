@@ -30,6 +30,4 @@ services:
     service_id: sonarqube
   jenkins:
     service_id: jenkins
-  hashicorpvault:
-    service_id: hashicorpvault
 form: {}
