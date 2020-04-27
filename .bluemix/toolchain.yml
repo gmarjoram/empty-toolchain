@@ -19,5 +19,5 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
 services:
   artifactory:
-    service_id: private_worker
+    service_id: artifactory
 form: {}
