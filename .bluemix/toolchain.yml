@@ -18,8 +18,8 @@ toolchain:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
 services:
-  artifactory:
+  keyprotect:
     service_id: artifactory
-  private-worker:
+  artifactory:
     service_id: private_worker
 form: {}
