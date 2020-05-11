@@ -19,7 +19,7 @@ toolchain:
       $ref: "#/messages/template.gettingStarted"
 services:
   keyprotect:
-    service_id: artifactory
+    service_id: keyprotect
   artifactory:
-    service_id: private_worker
+    service_id: artifactory
 form: {}
