@@ -22,4 +22,6 @@ services:
     service_id: keyprotect
   artifactory:
     service_id: artifactory
+  hashicorpvault:
+    service_id: hashicorpvault
 form: {}
