@@ -18,10 +18,8 @@ toolchain:
     getting_started:
       $ref: "#/messages/template.gettingStarted"
 services:
-  keyprotect:
-    service_id: keyprotect
-  artifactory:
-    service_id: artifactory
+  jira:
+    service_id: jira
   hashicorpvault:
     service_id: hashicorpvault
 form: {}
